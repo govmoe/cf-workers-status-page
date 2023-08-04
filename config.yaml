@@ -31,11 +31,11 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
-
-- id: Live Stream Service
-    name: Hong-Kong Live Stream Service
-    description: 'Hong-Kong Live Stream Service'
+  
+  - id: Live Stream
+    name: Hong-Kong Live Stream Server
+    description: 'ETalk Services[BETA]'
     url: 'https://1live.emolive.eu.org'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: false
