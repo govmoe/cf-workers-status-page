@@ -24,9 +24,9 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: Hatch_blod Blog
-    name: Hatch_blod Blog.
-    description: 'Hatch_blod Blogs'
+  - id: KnLive
+    name: KnLive Site.
+    description: 'KnLive'
     url: 'https://emolive.eu.org'
     method: GET
     expectStatus: 200
