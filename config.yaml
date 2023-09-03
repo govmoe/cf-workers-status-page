@@ -15,16 +15,16 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: ETalk Website # unique identifier
-    name: ETalk Website
-    description: 'ETalk WebSite Status' # default=empty
-    url: 'https://talk.r6s.wtf' # URL to fetch
+  - id: 1 # unique identifier
+    name: DevHub Forum Hosting - Main
+    description: 'DevHub Forum Hosting - Main' # default=empty
+    url: 'https://devhub.eu.org' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: KnLive
+  - id: 2
     name: KnLive Site.
     description: 'KnLive'
     url: 'https://emolive.eu.org'
@@ -32,7 +32,7 @@ monitors:
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
   
-  - id: Live Stream
+  - id: 3
     name: Hong-Kong Live Stream Server
     description: 'ETalk Services[BETA]'
     url: 'https://1live.emolive.eu.org'
